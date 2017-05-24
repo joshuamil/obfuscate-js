@@ -1,6 +1,6 @@
 {
-  "name": "obfuscate",
-  "version": "0.0.1",
+  "name": "obfuscate-js",
+  "version": "0.0.3",
   "description": "Obfuscates a string by replacing some characters with an asterisk.",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,8 @@
     "string",
     "replace",
     "mask",
-    "hide"
+    "hide",
+    "PII"
   ],
   "author": "Joshua Miller <joshuamil@gmail.com>",
   "license": "ISC",

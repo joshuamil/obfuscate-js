@@ -10,7 +10,12 @@ let options = {
 
 // Replace all but the last set of characters, retainin the separator
 // returns: ***-**-0000
-fin += obfuscate("000-00-0000", "-", false) + "\n";
+fin += obfuscate("000-00-0000", "-") + "\n";
+
+// Replace all but the last set of characters, retaining the separator, but uses
+// a hash/number symbol instead of an asterisk
+// returns: ###-##-0000
+fin += obfuscate("000-00-0000", "-", {character: '#'}) + "\n";
 
 // Replace all characters in the string, but retain the separator
 // returns: ***-**-****
