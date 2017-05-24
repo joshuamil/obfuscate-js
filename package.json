@@ -14,5 +14,6 @@
     "hide"
   ],
   "author": "Joshua Miller <joshuamil@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": "https://github.com/joshuamil/obfuscate-js.git"
 }
