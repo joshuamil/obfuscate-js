@@ -1,0 +1,18 @@
+{
+  "name": "obfuscate",
+  "version": "0.0.1",
+  "description": "Obfuscates a string by replacing some characters with an asterisk.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "obfuscate",
+    "string",
+    "replace",
+    "mask",
+    "hide"
+  ],
+  "author": "Joshua Miller <joshuamil@gmail.com>",
+  "license": "ISC"
+}
